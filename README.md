@@ -117,6 +117,7 @@ Hyperspectral/test_DPS.py -sampling 'PGADPS' -network_saved_name PGADPS_5bands_8
 
 _______________________________________________
 References
+
 [1] Yann LeCun, Leon Bottou, Yoshua Bengio, and Patrick Haffner. (1998). "Gradient-based learning applied to document recognition." Proceedings of the IEEE, 86(11):2278–2323.
 
 [2] Alex Krizhevsky, Geoffrey Hinton, et al. Learning multiple layers of features from tiny images. 2009.
