@@ -1,4 +1,4 @@
-# PGA-DPS: Prior-aware and Context-guided Group Sampling for Active Probabilistic Subsampling (ICLR 2026)
+# Prior-aware and Context-guided Group Sampling for Active Probabilistic Subsampling (ICLR 2026)
 
 ---
 
