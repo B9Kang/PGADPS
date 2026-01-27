@@ -61,6 +61,7 @@ CIFAR_Classification/main.py -sampling 'PGADPS' -percentage 2 -Ps 10 -As 20 -see
 
 To perform MRI reconstruction, you need to download the single-coil knee training and validation data from the fastMRI website (https://fastmri.med.nyu.edu/). After downloading the dataset, place it in "my_path" as shown below and run the 'preprocessing.py':
 
+```text
 my_path/
 ├── knee_singlecoil_train/
 │   ├── file1000001.h5  
@@ -71,6 +72,7 @@ my_path/
 │   ├── file1000000.h5  
 │   ├── file1000007.h5  
 │   ├── ...
+```
 
 MRI_Reconstruction/preprocessing.py -path my_path
 
@@ -90,12 +92,14 @@ MRI_Reconstruction/analyseCheckpoint.py -sampling 'PGADPS' -Ps 30 -As 30 -seed 0
 
 To perform HSI segmentation, you need to download the HSI data from the AeroRIT website (https://github.com/aneesh3108/AeroRIT). After downloading the dataset, place it in "Aerial Data/Collection" as shown below and run the 'sampling_data.py':
 
+```text
 Aerial Data/
 ├── Collection/
 │   ├── image_hsi_radiance.tif  
 │   ├── image_hsi_reflectance.tif 
 │   ├── image_labels.tif
 │   ├── image_rgb.tif
+```
 
 Hyperspectral/sampling_data.py
 
