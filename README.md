@@ -44,6 +44,8 @@ Across all tasks, PGA-DPS consistently outperforms DPS, A-DPS, and other state-o
 ├── Hyperspectral/
 └── README.md
 
+```
+
 ## Implementation 
 **1. Classification on MNIST dataset [1]**
 
