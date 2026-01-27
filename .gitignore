@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / outputs
+logs/
+runs/
+*.log
+
+# Model checkpoints
+checkpoints/
+savedmodels/
+*.pt
+*.pth
+
+# Datasets (fastMRI / AeroRIT 등)
+data/
+my_path/
+Aerial Data/
+knee_singlecoil_train/
+knee_singlecoil_val/
+*.h5
+*.tif

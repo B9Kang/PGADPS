@@ -1,0 +1,7 @@
+Aerial\Data/*
+!Aerial\Data/README.md
+savedmodels/*
+!savedmodels/README.md
+__pycache__/
+*.pyc
+
