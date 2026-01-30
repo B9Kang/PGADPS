@@ -19,6 +19,7 @@ runs/
 
 # Model checkpoints
 checkpoints/
+!checkpoints/*.tar
 savedmodels/
 *.pt
 *.pth
