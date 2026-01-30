@@ -4,9 +4,6 @@
 
 ## 🔍 Overview
 
-This is the official public repository for the NeurIPS 2025 paper "Buffer Layers for Test-Time Adaptation".
-
-
 This repository provides the **official PyTorch implementation** of  
 **ICLR 2026 Prior-aware and Context-guided Group Sampling for Active Probabilistic Subsampling/**
 
