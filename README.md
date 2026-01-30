@@ -47,7 +47,9 @@ Across all tasks, PGA-DPS consistently outperforms DPS, A-DPS, and other state-o
 Test code
 
 analyseCheckpoint.py -sampling PGADPS -save_name PGADPS_26lines_30Ps_30As_0seed -Ps 30 -As 30
+
 analyseCheckpoint.py -sampling ADPS -save_name ADPS_26lines_0seed
+
 analyseCheckpoint.py -sampling DPS -save_name DPS_26lines_1seed
 
 ## Implementation 
