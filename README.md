@@ -4,10 +4,13 @@
 
 ## 🔍 Overview
 
-This repository provides the **official PyTorch implementation** of  
-**PGA-DPS (Prior-aware and Group-based Active Deep Probabilistic Subsampling)**.
+This is the official public repository for the NeurIPS 2025 paper "Buffer Layers for Test-Time Adaptation".
 
-PGA-DPS extends Active Deep Probabilistic Subsampling (A-DPS) by:
+
+This repository provides the **official PyTorch implementation** of  
+**ICLR 2026 Prior-aware and Context-guided Group Sampling for Active Probabilistic Subsampling/**
+
+Our PGA-DPS (Prior-aware and Group-based Active Deep Probabilistic Subsampling) extends Active Deep Probabilistic Subsampling (A-DPS) by:
 - incorporating **deterministic prior-aware sampling** learned from training data, and
 - enabling **group-based (top-k) active sampling**, which leads to smoother optimization and improved robustness.
 
@@ -29,17 +32,23 @@ Across all tasks, PGA-DPS consistently outperforms DPS, A-DPS, and other state-o
 
 ---
 
-## 🗂️ Repository Structure
+## 📌 Pre-Trained models
 
 ```text
 .
-├── MNIST_Classification/
-├── CIFAR_Classification/
 ├── MRI_Reconstruction/
-├── Hyperspectral/
-└── README.md
+│   ├── checkpoints/
+│   │   ├── ADPS_26lines_0seed.tar
+│   │   ├── DPS_26lines_0seed.tar
+│   │   ├── PGADPS_26lines_0seed.tar
+│   │   ├── ...
 
 ```
+Test code
+
+analyseCheckpoint.py -sampling PGADPS -save_name PGADPS_26lines_30Ps_30As_0seed -Ps 30 -As 30
+analyseCheckpoint.py -sampling ADPS -save_name ADPS_26lines_0seed
+analyseCheckpoint.py -sampling DPS -save_name DPS_26lines_1seed
 
 ## Implementation 
 **1. Classification on MNIST dataset [1]**
