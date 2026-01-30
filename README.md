@@ -5,7 +5,7 @@
 ## 🔍 Overview
 
 This repository provides the **official PyTorch implementation** of  
-**ICLR 2026 Prior-aware and Context-guided Group Sampling for Active Probabilistic Subsampling/**
+**ICLR 2026 paper "Prior-aware and Context-guided Group Sampling for Active Probabilistic Subsampling"**
 
 Our PGA-DPS (Prior-aware and Group-based Active Deep Probabilistic Subsampling) extends Active Deep Probabilistic Subsampling (A-DPS) by:
 - incorporating **deterministic prior-aware sampling** learned from training data, and
