@@ -138,7 +138,7 @@ Our codebase is heavily based on the excellent Deep probabilistic Subsampling re
 
 ## 📚 Citation
 
-If you find our work useful or valuable for your research, please consider citing us:
+If you find our work useful for your research, please consider citing our paper.
 
 ```bibtex
 @inproceedings{
