@@ -141,12 +141,6 @@ Our codebase is heavily based on the excellent Deep probabilistic Subsampling re
 If you find our work useful or valuable for your research, please consider citing us:
 
 ```bibtex
-@inproceedings{kimbuffer,
-  title={Buffer layers for Test-Time Adaptation},
-  author={Kim, Hyeongyu and Han, GeonHui and Hwang, Dosik},
-  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}
-}
-
 @inproceedings{
   kang2026prioraware,
   title={Prior-aware and Context-guided Group Sampling for Active Probabilistic Subsampling},
