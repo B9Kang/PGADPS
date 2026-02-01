@@ -128,3 +128,29 @@ References
 [3] Jure Zbontar, et al. "fastMRI: An open dataset and benchmarks for accelerated MRI." arXiv preprint arXiv:1811.08839 (2018).
 
 [4] Rangnekar, A., Mokashi, N., Ientilucci, E. J., Kanan, C., and Hoffman, M. J. (2020). "Aerorit: A new scene for hyperspectral image analysis." IEEE Transactions on Geoscience and Remote Sensing, 58(11):8116–8124.
+
+
+--- 
+
+## 🙏 Acknowledgment
+
+Our codebase is heavily based on the excellent Deep probabilistic Subsampling repository by [IamHuijben](https://github.com/IamHuijben/Deep-Probabilistic-Subsampling). We sincerely appreciate their contribution to the community.
+
+## 📚 Citation
+
+If you find our work useful or valuable for your research, please consider citing us:
+
+```bibtex
+@inproceedings{kimbuffer,
+  title={Buffer layers for Test-Time Adaptation},
+  author={Kim, Hyeongyu and Han, GeonHui and Hwang, Dosik},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}
+}
+
+@inproceedings{
+  kang2026prioraware,
+  title={Prior-aware and Context-guided Group Sampling for Active Probabilistic Subsampling},
+  author={Kang, Beomgu and Seo, Hyunseok},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+}
